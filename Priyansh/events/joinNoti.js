@@ -33,7 +33,7 @@ module.exports.run = async function({ api, event }) {
                 const fs = require("fs");
                 return api.sendMessage("Assalamu Alaikum Everyone🥀🥀", event.threadID, () => api.sendMessage({body:`🌺Shaan🦋🌺 CONNECTED«
 
-Bot Made By SHAAN KHAN K☘️
+Bot Made By ༒𝐌𝐑 𝐒𝐔𝐑𝐀𝐉💙༒☘️
 <------------------------------>  
 BOT CONNECTED SUCCESFUL !!! 
 
@@ -45,21 +45,19 @@ USE HELP TO SEE COMMAND
 <<<<<------------------------------>>>>>
 AND FOR ANY REPORT OR CONTACT BOT DEVELOPER
 
-OWNER: 𝐒𝐇𝐀𝐀𝐍
+OWNER: ༒𝐌𝐑 𝐒𝐔𝐑𝐀𝐉💙༒
 
 ♻️Facebook: 
 
-https://www.facebook.com/profile.php?id=100016828397863&mibextid=ZbWKwL
+https://www.facebook.com/profile.php?id=61589812363973
 
 Youtube Site : N/A
 
-☢️ INSTAGRAM: N/A
+☢️ INSTAGRAM
 
-https://www.instagram.com/shankhank345?igsh=MXVneXZ6bzR4bHhvcg==￼
 
-☣️Email: shankhank345@gmail.com
 
-⚠️Wp: +92 3368783346 `, attachment: fs.createReadStream(__dirname + "/cache/lv_7256561222877826306_20250410093120.mp4")} ,threadID));
+⚠️FB:https://www.facebook.com/profile.php?id=61589812363973 `, attachment: fs.createReadStream(__dirname + "/cache/lv_7256561222877826306_20250410093120.mp4")} ,threadID));
         }
         else {
                 try {
