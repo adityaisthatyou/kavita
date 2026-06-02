@@ -6,7 +6,7 @@ module.exports.config = {
   name: "sara",
   version: "2.0",
   role: 0,
-  credits: "SHAAN-KHAN",
+  credits: "༒MR SURAJ💙༒",
   description: "Sara AI (Groq API + Voice Logic)",
   hasPrefix: true,
   usages: "[text]",
@@ -17,7 +17,7 @@ module.exports.onStart = async function ({ api, event, args }) {
   const { threadID, messageID, senderID } = event;
   const text = args.join(" ");
 
-  if (!text) return api.sendMessage("😏 Shaan... mujhse kuch pucho na...", threadID, messageID);
+  if (!text) return api.sendMessage("😏 ༒MR SURAJ💙༒... mujhse kuch pucho na...", threadID, messageID);
 
   // Reaction start
   api.setMessageReaction("⌛", messageID, () => {}, true);
@@ -36,7 +36,7 @@ module.exports.onStart = async function ({ api, event, args }) {
         messages: [
           {
             role: "system",
-            content: "Tumhara naam Sara hai 🙂 Tum Shaan ki naughty girlfriend ho ❤️ Pakistan se ho. Roman Urdu zyada use karti ho. Cute naughty style me baat karti ho. Shaan ko 'Janu' bolo."
+            content: "ME MR SURAJ KA BOT HU🙂 ME APNE BOSS MR SURAJ KA PYARA BOT HU❤️ 𓆩̬̬̬̬̬̬̬̬̬̬̬̯̯̯̑̑̑̑̑̑̑̑̑̑̑̑̑ 'Janu' bolo."
           },
           { role: "user", content: text }
         ]
