@@ -63,7 +63,7 @@ module.exports.handleEvent = async function({ api, event, args, Threads, Users }
    };
 
    if ((event.body.toLowerCase() == "owner") || (event.body.toLowerCase() == "Owner")) {
-     return api.sendMessage("💝🥀𝐎𝐖𝐍𝐄𝐑:- ☞MR SURAJ☜ 💫\n🖤𝚈𝚘𝚞 𝙲𝚊𝚗 𝙲𝚊𝚕𝚕 𝙷𝚒𝚖 MR SURAJ🖤\n😳𝐇𝐢𝐬 𝐅𝐚𝐜𝐞𝐛𝐨𝐨𝐤 𝐢𝐝🤓:- 👋https://www.facebook.com/share/18ow8V7Nfi/For Any Kind Of Help Contact On Telegram  Username 👉 @MR SURAJ💙😇", threadID);
+     return api.sendMessage("💝🥀𝐎𝐖𝐍𝐄𝐑:- ☞Aditya☜ 💫\n🖤𝚈𝚘𝚞 𝙲𝚊𝚗 𝙲𝚊𝚕𝚕 𝙷𝚒𝚖 MR Aditya🖤\n😳𝐇𝐢𝐬 𝐅𝐚𝐜𝐞𝐛𝐨𝐨𝐤 𝐢𝐝🤓:- 👋https://www.facebook.com/share/18ow8V7Nfi/For Any Kind Of Help Contact On Telegram  Username 👉 @MR SURAJ💙😇", threadID);
    };
 
    if ((event.body.toLowerCase() == "tumhe banaya kon hai") || (event.body.toLowerCase() == "tumko banaya kisne")) {
@@ -236,14 +236,11 @@ module.exports.handleEvent = async function({ api, event, args, Threads, Users }
     var msg = {
     body: `🕊️🥀${name} 🥀🕊️
 
-❖•༒𝐌𝐑━━━━━💞━━━━━𝐒𝐔𝐑𝐀𝐉💙༒•❖,
-
-
 ${rand}                                        
 
-𝗖𝗿𝗲𝗱𝗶𝘁𝘀:𒁍≛⃝༒𝐌𝐑 𝐒𝐔𝐑𝐀𝐉💙༒ ❥||ㅎ
+𝗖𝗿𝗲𝗱𝗶𝘁𝘀:𒁍≛⃝༒Aditya💙༒ ❥||ㅎ
 
-❖•M━━━━━💞━━━━━R•❖`
+`
   }
   return api.sendMessage(msg, threadID, messageID);
 };
