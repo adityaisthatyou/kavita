@@ -17,7 +17,7 @@ module.exports.config = {
   name: "admin",
   version: "3.1.0",
   hasPermssion: 0,
-  credits: "SHAAN BABU",
+  credits: "ADITYA",
   description: "Admin / Security / Bot Manager (Only & Public Mode)",
   commandCategory: "Admin",
   usages: "admin [list/add/remove/only/public]",
