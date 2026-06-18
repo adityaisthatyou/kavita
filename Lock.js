@@ -6,7 +6,7 @@ module.exports.config = {
   name: "lock",
   version: "2.5.0",
   hasPermssion: 1,
-  credits: "Shaan",
+  credits: "aditya",
   description: "Strictly lock Group Name, Photo, Nicknames, Theme and Emoji",
   commandCategory: "group",
   usages: "[name/photo/nickname/theme/all/off]",
@@ -19,7 +19,7 @@ module.exports.run = async function ({ api, event, args }) {
   const { threadID, messageID } = event;
   const action = args[0]?.toLowerCase();
 
-  // Menu options agar user sirf command likhe
+  / Menu options agar user sirf command likhe
   if (!action) {
     return api.sendMessage(
       "🛡️ **Group Lock Security** 🛡️\n" +
@@ -48,13 +48,13 @@ module.exports.run = async function ({ api, event, args }) {
 
     let status = [];
 
-    // All ya Name Lock logic
+    / All ya Name Lock logic
     if (action === "all" || action === "name") {
       global.lockData[threadID].name = info.threadName;
       status.push("Name 🔒");
     }
 
-    // All ya Photo Lock logic
+    / All ya Photo Lock logic
     if (action === "all" || action === "photo") {
       if (info.imageSrc) {
         const img = await axios.get(info.imageSrc, { responseType: "arraybuffer" });
@@ -65,7 +65,7 @@ module.exports.run = async function ({ api, event, args }) {
       }
     }
 
-    // All ya Nickname Lock logic
+    /All ya Nickname Lock logic
     if (action === "all" || action === "nickname") {
       global.lockData[threadID].nicknames = info.nicknames;
       status.push("Nicknames 🔒");
