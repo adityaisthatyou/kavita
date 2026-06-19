@@ -8,9 +8,9 @@ module.exports.config = {
         cooldowns: 5
 };
 
-//module.exports.run = async function({ event, api, args, client, Currencies, Users, utils, __GLOBAL, reminder }) {
-//const fs = global.nodemodule["fs-extra"];
-  //  const request = global.nodemodule["request"];
+module.exports.run = async function({ event, api, args, client, Currencies, Users, utils, __GLOBAL, reminder }) {
+const fs = global.nodemodule["fs-extra"];
+    const request = global.nodemodule["request"];
     const axios = global.nodemodule['axios']; 
     if(event.type == "message_reply") { 
       let name = await Users.getNameUser(event.messageReply.senderID) 
